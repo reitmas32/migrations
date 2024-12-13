@@ -1,0 +1,8 @@
+version: "1"
+packages:
+  - name: "db"
+    path: "./migrations/db"
+    queries: "./migrations/db/queries/"
+    schema: "./migrations/db/schema"
+    engine: "postgresql"
+    emit_interface: false
